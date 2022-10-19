@@ -153,7 +153,7 @@ AWS periodically provides updates to the AWS base images for Lambda\. If your Do
    docker build -t hello-world .   
    ```
 
-1. Start the Docker image with the `docker run` command\. For this example, enter `hello-world` as the image name\. Make sure you declare all flags before `hello-world`, else you might see an `entrypoint requires the handler name to be the first argument` error\.
+1. Start the Docker image with the `docker run` command\. For this example, enter `hello-world` as the image name\. Make sure you declare all docker flags before `hello-world`, else you might see an `entrypoint requires the handler name to be the first argument` error\.
 
    ```
    docker run -p 9000:8080 hello-world 
